@@ -38,7 +38,7 @@ export default function Hero() {
         </motion.div>
 
         <h3 className="lg:ml-12 pt-4 lg:text-start text-lg text-center mb-4 md:mb-9 lg:text-2xl">
-        Bringing creative ideas to life with elegant and responsive web designs, I specialize in HTML, CSS, JavaScript, and Next.js. With experience in Amazon VA and social media marketing, I strive to build impactful digital solutions that not only look great but perform exceptionally well. Let’s make something amazing together!
+        Bringing creative ideas to life with elegant and  <  br /> responsive web designs, I specialize in HTML, CSS, <br />JavaScript, and Next.js. 
         </h3>
 
         <motion.div
