@@ -26,9 +26,8 @@ export default function ProjectSec() {
                 height={300}
                 className="rounded-lg mb-4"
               />
-              <h3 className="text-2xl font-semibold mb-2">Project Name</h3>
-              <p className="text-gray-600 mb-4">Short description about the project, what it does, and the technologies used.</p>
-              <p className="text-sm text-gray-500 mb-4">Technologies: HTML, CSS, JavaScript</p>
+              <h3 className="text-2xl font-semibold mb-2">GLammod</h3>
+              <p className="text-sm text-gray-500 mb-4">Technologies: Next.js and tailwind css</p>
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">Live Preview</a> | 
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">GitHub</a>
             </motion.div>
@@ -41,14 +40,14 @@ export default function ProjectSec() {
               className="bg-white shadow-lg rounded-lg p-6"
             >
               <Image
-                src="/furniro.png"  // Replace with your project image path
+                src="/furniro.png"  
                 alt="Project 2"
                 width={500}
                 height={300}
                 className="rounded-lg mb-4"
               />
-              <h3 className="text-2xl font-semibold mb-2">Project 2 Name</h3>
-              <p className="text-gray-600 mb-4">Short description of Project 2.</p>
+              <h3 className="text-2xl font-semibold mb-2">Furniro</h3>
+             
               <p className="text-sm text-gray-500 mb-4">Technologies: Next.js, Tailwind CSS, Framer Motion</p>
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">Live Preview</a> | 
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">GitHub</a>
@@ -62,15 +61,15 @@ export default function ProjectSec() {
               className="bg-white shadow-lg rounded-lg p-6"
             >
               <Image
-                src="/helpingHand.png"  // Replace with your project image path
+                src="/helpingHand.png"  
                 alt="Project 3"
                 width={500}
                 height={300}
                 className="rounded-lg mb-4"
               />
-              <h3 className="text-2xl font-semibold mb-2">Project 3 Name</h3>
-              <p className="text-gray-600 mb-4">Short description of Project 3.</p>
-              <p className="text-sm text-gray-500 mb-4">Technologies: Next.js, Tailwind CSS, Framer Motion</p>
+              <h3 className="text-2xl font-semibold mb-2">Helping Hands</h3>
+             
+              <p className="text-sm text-gray-500 mb-4">Technologies:Html, css</p>
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">Live Preview</a> | 
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">GitHub</a>
             </motion.div>

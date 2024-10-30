@@ -27,11 +27,9 @@ export default function ProjectSec() {
                 height={200}
                 className="rounded-lg mb-4"
               />
-              <h3 className="text-2xl font-semibold mb-2">Project 1 Name</h3>
-              <p className="text-gray-600 mb-4">
-                Short description about the project, what it does, and the technologies used.
-              </p>
-              <p className="text-sm text-gray-500 mb-4">Technologies: HTML, CSS, JavaScript</p>
+              <h3 className="text-2xl font-semibold mb-2">Glammod</h3>
+             
+              <p className="text-sm text-gray-500 mb-4">Technologies:Next.js And Tailwoind CSS</p>
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">Live Preview</a> |
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">GitHub</a>
             </motion.div>
@@ -50,8 +48,7 @@ export default function ProjectSec() {
                 height={200}
                 className="rounded-lg mb-4"
               />
-              <h3 className="text-2xl font-semibold mb-2">Project 2 Name</h3>
-              <p className="text-gray-600 mb-4">Short description of Project 2.</p>
+              <h3 className="text-2xl font-semibold mb-2">Furniro</h3>
               <p className="text-sm text-gray-500 mb-4">Technologies: Next.js, Tailwind CSS, Framer Motion</p>
               <a href="https://furnitur-web.vercel.app/" className="text-blue-500 hover:text-blue-700 font-semibold">Live Preview</a> |
               <a href="https://github.com/search?q=owner%3Ajaveri-a%20furniro&type=code" className="text-blue-500 hover:text-blue-700 font-semibold">GitHub</a>
@@ -71,9 +68,9 @@ export default function ProjectSec() {
                 height={200}
                 className="rounded-lg mb-4"
               />
-              <h3 className="text-2xl font-semibold mb-2">Project 3 Name</h3>
-              <p className="text-gray-600 mb-4">Short description of Project 3.</p>
-              <p className="text-sm text-gray-500 mb-4">Technologies: Next.js, Tailwind CSS, Framer Motion</p>
+              <h3 className="text-2xl font-semibold mb-2">Helping Hands</h3>
+              
+              <p className="text-sm text-gray-500 mb-4">Technologies: Html,css</p>
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">Live Preview</a> |
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">GitHub</a>
             </motion.div>
@@ -91,9 +88,9 @@ export default function ProjectSec() {
                 height={200}
                 className="rounded-lg mb-4"
               />
-              <h3 className="text-2xl font-semibold mb-2">Project 3 Name</h3>
-              <p className="text-gray-600 mb-4">Short description of Project 3.</p>
-              <p className="text-sm text-gray-500 mb-4">Technologies: Next.js, Tailwind CSS, Framer Motion</p>
+              <h3 className="text-2xl font-semibold mb-2">Login Page</h3>
+           
+              <p className="text-sm text-gray-500 mb-4">Html,css</p>
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">Live Preview</a> |
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">GitHub</a>
             </motion.div>
@@ -111,9 +108,9 @@ export default function ProjectSec() {
                 height={200}
                 className="rounded-lg mb-4"
               />
-              <h3 className="text-2xl font-semibold mb-2">Project 3 Name</h3>
-              <p className="text-gray-600 mb-4">Short description of Project 3.</p>
-              <p className="text-sm text-gray-500 mb-4">Technologies: Next.js, Tailwind CSS, Framer Motion</p>
+              <h3 className="text-2xl font-semibold mb-2">Password Generator</h3>
+              
+              <p className="text-sm text-gray-500 mb-4">Technologies: Html,Css and Javascript</p>
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">Live Preview</a> |
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">GitHub</a>
             </motion.div>
@@ -131,9 +128,9 @@ export default function ProjectSec() {
                 height={200}
                 className="rounded-lg mb-4"
               />
-              <h3 className="text-2xl font-semibold mb-2">Project 3 Name</h3>
-              <p className="text-gray-600 mb-4">Short description of Project 3.</p>
-              <p className="text-sm text-gray-500 mb-4">Technologies: Next.js, Tailwind CSS, Framer Motion</p>
+              <h3 className="text-2xl font-semibold mb-2">Weather</h3>
+            
+              <p className="text-sm text-gray-500 mb-4">Technologies:Html,css</p>
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">Live Preview</a> |
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">GitHub</a>
             </motion.div>
@@ -151,9 +148,9 @@ export default function ProjectSec() {
                 height={200}
                 className="rounded-lg mb-4"
               />
-              <h3 className="text-2xl font-semibold mb-2">Project 3 Name</h3>
-              <p className="text-gray-600 mb-4">Short description of Project 3.</p>
-              <p className="text-sm text-gray-500 mb-4">Technologies: Next.js, Tailwind CSS, Framer Motion</p>
+              <h3 className="text-2xl font-semibold mb-2">Giaic Card</h3>
+         
+              <p className="text-sm text-gray-500 mb-4">Technologies: Next.js, Tailwind CSS</p>
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">Live Preview</a> |
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">GitHub</a>
             </motion.div>
@@ -171,9 +168,8 @@ export default function ProjectSec() {
                 height={200}
                 className="rounded-lg mb-4"
               />
-              <h3 className="text-2xl font-semibold mb-2">Project 3 Name</h3>
-              <p className="text-gray-600 mb-4">Short description of Project 3.</p>
-              <p className="text-sm text-gray-500 mb-4">Technologies: Next.js, Tailwind CSS, Framer Motion</p>
+              <h3 className="text-2xl font-semibold mb-2">Clock</h3>
+              <p className="text-sm text-gray-500 mb-4">Technologies: Html,css</p>
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">Live Preview</a> |
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">GitHub</a>
             </motion.div>
@@ -185,15 +181,15 @@ export default function ProjectSec() {
               transition={{ duration: 0.7 }}
             >
               <Image
-                src="/weather.png" 
+                src="/fb.png" 
                 alt="Project 3"
                 width={400}
                 height={200}
                 className="rounded-lg mb-4"
               />
-              <h3 className="text-2xl font-semibold mb-2">Project 3 Name</h3>
-              <p className="text-gray-600 mb-4">Short description of Project 3.</p>
-              <p className="text-sm text-gray-500 mb-4">Technologies: Next.js, Tailwind CSS, Framer Motion</p>
+              <h3 className="text-2xl font-semibold mb-2">Facebookn  page</h3>
+             
+              <p className="text-sm text-gray-500 mb-4">Technologies: Next.js, Tailwind CSS</p>
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">Live Preview</a> |
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">GitHub</a>
             </motion.div>
