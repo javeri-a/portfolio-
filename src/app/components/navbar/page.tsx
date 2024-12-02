@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Image from 'next/image';
 import Link from 'next/link';
-import { motion, AnimatePresence } from 'framer-motion'; // Import Framer Motion
+import { motion, AnimatePresence } from 'framer-motion'; 
 
 const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
@@ -14,11 +14,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed bg-purple-800 shadow-lg shadow-black w-full top-0 z-50">
+    <nav className="fixed bg-blue-950 shadow-lg shadow-black w-full top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           
-          {/* Logo Section */}
+          {/* Logo */}
           <div className="flex items-center">
             <Image 
               src="/image.png"

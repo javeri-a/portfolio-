@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function ABOUT() {
   return (
-    <div className="bg-purple-950 text-center text-white font-semibold pt-24 pb-10">
+    <div className="bg-blue-950 text-center text-white font-semibold pt-24 pb-10">
       <h1 className="text-8xl font-bold mb-12">ABOUT ME</h1>
 
       

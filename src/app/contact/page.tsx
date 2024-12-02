@@ -14,7 +14,7 @@ export default function Contact() {
     };
 
     return (
-        <section id="contact" className="p-10 bg-purple-950 mt-10">
+        <section id="contact" className="p-10 bg-blue-950 mt-10">
             <motion.h2
                 className="text-6xl font-bold mb-6 text-center text-white"
                 initial={{ opacity: 0, y: -20 }}

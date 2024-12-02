@@ -6,11 +6,11 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <div className="h-screen bg-purple-950">
+    <div className="h-screen bg-blue-950">
       <div className="text-white text-center">
       
         <motion.h1
-          className="lg:text-6xl text-5xl lg:pt-1 pt-6 text-center font-bold"
+          className="lg:text-6xl text-5xl lg:pt-6 pt-6  text-center font-bold"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -24,7 +24,7 @@ export default function About() {
 
         
           <motion.p
-            className="pt-6 pb-3 lg:pt-6 m-6 text-start lg:text-3xl text-lg lg:mt-4 lg:mr-80 lg:mb-2"
+            className="pt-6 pb-3 lg:pt-6 m-6 text-start lg:text-2xl text-lg lg:mt-4 lg:mr-80 lg:mb-2"
             initial={{ opacity: 0, x: 100 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
@@ -54,7 +54,7 @@ export default function About() {
 
   
         <motion.button
-          className="bg-red-600 lg:pr-20 px-14 py-6 mt-1 text-2xl md:mt-2 font-bold rounded-full"
+          className="bg-red-600 lg:pr-20 px-14 py-6  text-2xl  font-bold rounded-full"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
           initial={{ opacity: 0 }}

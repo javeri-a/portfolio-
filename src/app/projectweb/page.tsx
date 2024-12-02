@@ -6,8 +6,8 @@ import Link from "next/link";
 
 export default function ProjectSec() {
   return (
-    <div className="bg-purple-950 w-full h-auto">
-      <section id="projects" className="py-10 bg-purple-950">
+    <div className="bg-blue-950 w-full h-auto">
+      <section id="projects" className="py-10 bg-blue-950">
         <div className="container mx-auto">
           <h2 className="lg:text-6xl text-6xl font-bold text-center text-white mt-20 mb-6">
             My Projects
@@ -15,7 +15,7 @@ export default function ProjectSec() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Project 1 */}
             <motion.div
-              className="bg-white shadow-lg shadow-black hover:shadow-red-500 transition-all duration-300 rounded-2xl p-6"
+              className="bg-white shadow-lg shadow-black hover:shadow-white transition-all duration-300 rounded-2xl p-6"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
@@ -36,7 +36,7 @@ export default function ProjectSec() {
 
             {/* Project 2 */}
             <motion.div
-              className="bg-white shadow-lg shadow-black hover:shadow-red-500 transition-all duration-300 rounded-lg p-6"
+              className="bg-white shadow-lg shadow-black hover:shadow-white transition-all duration-300 rounded-lg p-6"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
@@ -56,7 +56,7 @@ export default function ProjectSec() {
 
             {/*  3 */}
             <motion.div
-              className="bg-white shadow-lg shadow-black hover:shadow-red-500 transition-all duration-300 rounded-lg p-6"
+              className="bg-white shadow-lg shadow-black hover:shadow-white transition-all duration-300 rounded-lg p-6"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7 }}
@@ -76,7 +76,7 @@ export default function ProjectSec() {
             </motion.div>
             {/* Project 3 */}
             <motion.div
-              className="bg-white shadow-lg shadow-black hover:shadow-red-500 transition-all duration-300 rounded-lg p-6"
+              className="bg-white shadow-lg shadow-black hover:shadow-white transition-all duration-300 rounded-lg p-6"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7 }}
@@ -96,7 +96,7 @@ export default function ProjectSec() {
             </motion.div>
             {/* Project 3 */}
             <motion.div
-              className="bg-white shadow-lg shadow-black hover:shadow-red-500 transition-all duration-300 rounded-lg p-6"
+              className="bg-white shadow-lg shadow-black hover:shadow-white transition-all duration-300 rounded-lg p-6"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7 }}
@@ -114,29 +114,9 @@ export default function ProjectSec() {
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">Live Preview</a> |
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">GitHub</a>
             </motion.div>
-            {/* Project 3 */}
+           
             <motion.div
-              className="bg-white shadow-lg shadow-black hover:shadow-red-500 transition-all duration-300 rounded-lg p-6"
-              initial={{ opacity: 0, y: 50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7 }}
-            >
-              <Image
-                src="/weather.png" 
-                alt="Project 3"
-                width={400}
-                height={200}
-                className="rounded-lg mb-4"
-              />
-              <h3 className="text-2xl font-semibold mb-2">Weather</h3>
-            
-              <p className="text-sm text-gray-500 mb-4">Technologies:Html,css</p>
-              <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">Live Preview</a> |
-              <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">GitHub</a>
-            </motion.div>
-            {/* Project 3 */}
-            <motion.div
-              className="bg-white shadow-lg shadow-black hover:shadow-red-500 transition-all duration-300 rounded-lg p-6"
+              className="bg-white shadow-lg shadow-black hover:shadow-white transition-all duration-300 rounded-lg p-6"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7 }}
@@ -156,7 +136,7 @@ export default function ProjectSec() {
             </motion.div>
             {/* Project 3 */}
             <motion.div
-              className="bg-white shadow-lg shadow-black hover:shadow-red-500 transition-all duration-300 rounded-lg p-6"
+              className="bg-white shadow-lg shadow-black hover:shadow-white transition-all duration-300 rounded-lg p-6"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7 }}
@@ -175,7 +155,7 @@ export default function ProjectSec() {
             </motion.div>
             {/* Project 3 */}
             <motion.div
-              className="bg-white shadow-lg shadow-black hover:shadow-red-500 transition-all duration-300 rounded-lg p-6"
+              className="bg-white shadow-lg shadow-black hover:shadow-white transition-all duration-300 rounded-lg p-6"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7 }}
@@ -187,7 +167,7 @@ export default function ProjectSec() {
                 height={200}
                 className="rounded-lg mb-4"
               />
-              <h3 className="text-2xl font-semibold mb-2">Facebookn  page</h3>
+              <h3 className="text-2xl font-semibold mb-2">Facebook page</h3>
              
               <p className="text-sm text-gray-500 mb-4">Technologies: Next.js, Tailwind CSS</p>
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold">Live Preview</a> |

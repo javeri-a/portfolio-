@@ -5,8 +5,8 @@ import Image from "next/image";
 
 export default function ProjectSec() {
   return (
-    <div className="bg-purple-950 w-full h-auto">
-      <section id="projects" className="py-10 bg-purple-950">
+    <div className="bg-blue-950 w-full h-auto">
+      <section id="projects" className="py-10 bg-blue-950">
         <div className="container mx-auto">
           <h2 className="lg:text-6xl text-6xl font-bold text-center text-white mb-6">My Projects</h2>
 

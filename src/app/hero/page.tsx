@@ -7,7 +7,7 @@ import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export default function Hero() {
   return (
-    <div className="lg:flex lg:justify-between justify-center bg-purple-950 h-screen w-full text-white">
+    <div className="lg:flex lg:justify-between justify-center bg-blue-950  h-screen w-full text-white">
       
 
       <motion.div
@@ -16,8 +16,8 @@ export default function Hero() {
         transition={{ duration: 1 }}
       >
         <h1 className="pt-20 lg:pt-48 text-center lg:text-start lg:text-6xl lg:ml-16 text-4xl">
-          Hello, Its me <br />
-          <span className="font-serif font-extrabold lg:text-8xl text-4xl">Javeria</span>
+          Hello, Its me  <br />
+          <span className="font-serif font-extrabold lg:text-6xl  text-start text-3xl"> <i>Javeria</i></span>
         </h1>
 
         <TextAnimation />
@@ -33,7 +33,7 @@ export default function Hero() {
             alt="profile"
             height={400}
             width={400}
-            className="rounded-full lg:mt-28 lg:mr-40 mt-2 border border-x-8 border-y-8 border-black h-[250px] w-[250px] ml-14 lg:w-[400px] lg:h-[400px] lg:hidden"
+            className="rounded-full lg:mt-28 lg:mr-40 mt-2 border border-x-8 border-y-8 border-white h-[250px] w-[250px] ml-16 lg:w-[400px] lg:h-[400px] lg:hidden"
           />
         </motion.div>
 

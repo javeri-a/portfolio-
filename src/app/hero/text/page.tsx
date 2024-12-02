@@ -20,14 +20,14 @@ const TextAnimation = () => {
   }, []);
 
   return (
-    <div className="flex  items-center  ">
+     <div className="flex    ">
       <motion.div
         key={currentRole}
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -50 }}
         transition={{ duration: 0.8 }}
-        className="lg:text-5xl text-xl ml-16 text-center font-extrabold text-red-300   lg:ml-24 lg:text-start font-mono"
+        className="lg:text-4xl ml-16 text-start font-bold text-red-300   lg:ml-16 lg:text-start text-lg font-mono"
       >
         {roles[currentRole]}
       </motion.div>
